@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,0.20)) , url("pexels-wallace-chuck-3602252.jpg");
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 48% 89%, 0 97%, 0 85%);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 14%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar h2{
+    color: #ffffff;
+    font-size: 2rem;
+}
+span{
+    color: #d10020;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(247, 236, 236);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: .8rem;
+    transition: all 0.8s;
+}
+.nav ul li a:hover{
+    color: #d10020;
+}
+.hed-1{
+    display: flex;
+    width: 100%;
+    height: 65%;
+    padding:  0 4rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hed-2 h1{
+    font-size: 2.4rem;
+    font-weight: 800;
+    width: 420px;
+    letter-spacing: 0.1rem;
+    font-size: normal;
+    font-family: "Protest Riot", sans-serif;
+}
+.hed-2  p{
+    color: #ababab;
+    font-weight: 600;
+    font-size: 0.8rem;
+    word-spacing: .1rem;
+    width: 380px;
+    margin-top: .7rem;
+    line-height: 1.5rem;
+}
+.hed-2 button{
+    width: 35%;
+    padding: .7rem 1.2rem;
+    border: 2px solid #d10020;
+    color: #fff;
+    background-color: #d10020;
+    font-size: .8rem;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: .2rem;
+    margin-top: .5rem;
+    transition: all .5s;
+}
+.hed-2 button:hover{
+    border: 2px solid #e82e4a;
+background-color: #e82e4a;
+}
+.hed3 h1{
+    text-align: end;
+    padding-right: 1rem;
+    border-right: 5px solid #d10020;
+    transition: border-right-color 1s ease-in-out;
+    transition: color 1s ease-in-out;
+    font-family: "Sixtyfour", sans-serif;   
+}
+.hed3 p{
+    color: #ffff;
+    width: 80px;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.icon{
+    height: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-1 i {
+    font-size: 4rem;
+    color: #d10020;
+}
+.icon-2 i {
+    font-size: 4rem;
+    color: #fff;
+    display: none;
+}
+i{
+    cursor: pointer;
+}
+
